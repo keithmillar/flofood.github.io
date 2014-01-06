@@ -1,4 +1,4 @@
-#Keithmillars Website and Blog
+# Website and Blog
 
 You can view this website at [flofood.github.io](http://flofood.github.com)
 
