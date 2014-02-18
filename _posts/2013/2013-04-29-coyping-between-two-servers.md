@@ -7,8 +7,8 @@ tags:
 - computing 
 ---
  
-   
-Copy  a file or folders between two Servers. Rsync copies folders scp files
+Copy  a file or folders between two Servers. Rsync copies folders scp files  
+sshfs to mount a remote dir locally
 
 {{ more }} 
 
@@ -18,4 +18,9 @@ rsync -azvu --rsh='ssh -p32' basedir/ server2:destdir/
  
 {% highlight bash html linenos %}
 scp -P32 <file>  server2:destdir/
+{% endhighlight %}
+
+{% highlight bash linenos %}
+sshfs <account>@<ip>:<remote folder full path>   <local folder path>
+fusermount -u mountpoint <to unmount>
 {% endhighlight %}
