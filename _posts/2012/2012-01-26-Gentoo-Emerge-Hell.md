@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Gentoo Emerge Hell 
+title: Gentoo Emerge Hell
 date: 26 jan 2012
-category: tech 
+category: Blog
 tags:
 - gentoo
 - computing
